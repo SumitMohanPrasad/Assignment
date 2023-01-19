@@ -1,0 +1,31 @@
+Q1. Describe higher order functions.
+Answer: A higher order functions takes another function as an argument or returns a function .
+some built in higher order functions are:-
+1)map
+2)reduce 
+3)filter
+
+map :-map() creates a new array from calling a function for every array element and it calls a function once for each element in an array.
+reduce:-it returns a single value after desired calculation.
+filter:- it filters the array,object on certain condition.
+
+Q2. write use cases + any one code example for map, filter and reduce.
+Answer:
+1)Example using map
+  let num=[2,3,4,5,6];
+  num.map((n)=>n*3);
+  it thrice the given array.
+  ouput- [6, 9, 12, 15, 18]
+
+2) Example using reduce
+   let num=[2,3,4,5,6];
+  num.reduce((a,b)=>a+=b);
+  it add the element of array and give output as 20.
+
+3)Example using filter
+   let num=[2,3,4,5,6];
+      num.filter((n)=>n%2==0);
+    it will filter the array element and gives even number as ouput.
+    output- [2, 4, 6]
+
+    
